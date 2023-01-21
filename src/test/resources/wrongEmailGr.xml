@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="wrongEmail" verbose="1" >
+    <groups>
+        <run>
+            <include name="wrongEmail"/>
+        </run>
+    </groups>
+
+    <test name="wrongEmail" >
+        <classes>
+            <class name="negative.LoginNegativeTests" />
+            <class name="negative.RegistrationNegative" />
+        </classes>
+    </test>
+
+</suite>

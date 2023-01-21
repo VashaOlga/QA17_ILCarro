@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="authorization" verbose="1" >
+    <groups>
+        <run>
+            <include name="auth"/>
+        </run>
+    </groups>
+
+    <test name="auth" >
+        <classes>
+            <class name="positive.RegistrationPositive" />
+            <class name="positive.LoginPositive" />
+
+        </classes>
+    </test>
+
+</suite>
